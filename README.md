@@ -16,3 +16,6 @@ Web page call the Business API with Ajax and use jQuery Framework. Chart generat
 
 Tech: .Net MVC Core, Html, Css, Javascript 
 
+![Screenshot](/readme-files/currency1.jpg)
+
+![Screenshot](/readme-files/currency2.jpg)
