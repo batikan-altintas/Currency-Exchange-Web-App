@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="C:\Users\ceyha\.nuget\packages\d3\7.8.4\contentFiles\any\any\wwwroot\lib\d3\API.md" />
+    <Compile Remove="C:\Users\ceyha\.nuget\packages\d3\7.8.4\contentFiles\any\any\wwwroot\lib\d3\CHANGES.md" />
+    <Compile Remove="C:\Users\ceyha\.nuget\packages\d3\7.8.4\contentFiles\any\any\wwwroot\lib\d3\d3.js" />
+    <Compile Remove="C:\Users\ceyha\.nuget\packages\d3\7.8.4\contentFiles\any\any\wwwroot\lib\d3\d3.min.js" />
+    <Compile Remove="C:\Users\ceyha\.nuget\packages\d3\7.8.4\contentFiles\any\any\wwwroot\lib\d3\LICENSE" />
+    <Compile Remove="C:\Users\ceyha\.nuget\packages\d3\7.8.4\contentFiles\any\any\wwwroot\lib\d3\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="bootstrap" Version="5.2.3" />
+    <PackageReference Include="d3" Version="7.8.4" />
+    <PackageReference Include="jQuery" Version="3.6.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.16" />
+  </ItemGroup>
+
+</Project>
